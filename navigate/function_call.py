@@ -8,7 +8,7 @@ from use2 import move_robot
 viz = Navigator('192.168.3.32')
 
 # 大模型客户端
-client = OpenAI(api_key="sk-162696a2f4f64b0ea31bd22cf3369a58", base_url="https://api.deepseek.com")
+client = OpenAI(api_key="api_key", base_url="https://api.deepseek.com")
 
 
 def move_robot_to_location(location):
